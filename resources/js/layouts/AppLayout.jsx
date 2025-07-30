@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function AppLayout() {
     return (
         <div className="flex flex-col max-w-6xl mx-auto p-5">
-            <main className="grow">
+            <main className="grow" style={{ marginBottom: '6rem'}}>
                 <Outlet />
             </main>
             <footer
