@@ -17,7 +17,20 @@ class PlayController extends Controller
     public function index()
     {
         try {
-            $plays = Play::with('teams')->orderBy('play_date', 'desc')->orderBy('play_start', 'desc')->get();
+            $search = request()->input('search', '');
+            $plays = Play::with('teams');
+
+            $plays = $plays->where(function ($query) use ($search) {
+                $query->whereHas('teams', function ($query) use ($search) {
+                    $query->where('teams.team_id', 'LIKE', "%$search%");
+                    $query->orWhere('team_name', 'LIKE', "%$search%");
+                    $query->orWhere('team_code', 'LIKE', "%$search%");
+                });
+                $query->orWhere('play_date', 'LIKE', "%$search%");
+                $query->orWhere('play_start', 'LIKE', "%$search%");
+            });
+
+            $plays = $plays->orderBy('play_date', 'desc')->orderBy('play_start', 'desc')->get();
 
             return response()->json([
                 'success' => true,
@@ -57,6 +70,13 @@ class PlayController extends Controller
                 []
             );
 
+            if (request()->input('local_id') === request()->input('team_id')) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Los equipos deben ser distintos',
+                ], 500);
+            }
+
             $new = DB::transaction(function () {
                 // crea play, lcoa, other
                 $new = Play::create(request()->only('play_date', 'play_start'));
@@ -67,6 +87,7 @@ class PlayController extends Controller
                     'team_goals' => request()->input('local_goals'),
                     'team_red' => request()->input('local_red'),
                     'team_yellow' => request()->input('local_yellow'),
+                    'team_local' => true,
                 ]);
 
                 $other = PlayTeam::create([
@@ -75,6 +96,7 @@ class PlayController extends Controller
                     'team_goals' => request()->input('team_goals'),
                     'team_red' => request()->input('team_red'),
                     'team_yellow' => request()->input('team_yellow'),
+                    'team_local' => false,
                 ]);
 
                 return $new;

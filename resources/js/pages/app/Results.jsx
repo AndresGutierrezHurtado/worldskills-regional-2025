@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function Results() {
     const [search, setSearch] = useState("");
-    const { data: results, loading: resultsLoading } = useGetData("/plays");
+    const { data: results, loading: resultsLoading } = useGetData(
+        `/plays?search=${search}`
+    );
 
     if (resultsLoading) return <LoadingComponent />;
 
@@ -108,7 +110,9 @@ export default function Results() {
                                 </div>
                                 <div className="text-center text-sm opacity-80">
                                     <p>{date.toLocaleDateString("es-CO")}</p>
-                                    <p className="text-xs opacity-80">{date.toLocaleTimeString("es-CO")}</p>
+                                    <p className="text-xs opacity-80">
+                                        {date.toLocaleTimeString("es-CO")}
+                                    </p>
                                 </div>
                             </div>
                             <Link
