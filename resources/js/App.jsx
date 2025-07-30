@@ -11,6 +11,8 @@ import Team from "./pages/app/Team";
 import Results from "./pages/app/Results";
 import Ranking from "./pages/app/Ranking";
 import Admin from "./pages/Admin";
+import ResultManagement from "./pages/admin/ResultManagement";
+import TeamManagement from "./pages/admin/TeamManagement";
 
 export default function App() {
     return (
@@ -26,11 +28,12 @@ export default function App() {
 
                     {/* Admin Routes */}
                     <Route path="/admin" element={<Admin />} />
-                    {/* 
-                    <Route path="/admin/results" element={<Admin />} />
-                    <Route path="/admin/teams" element={<Admin />} />
-                    */}
+                    <Route path="/admin/results" element={<ResultManagement />} />
+                    <Route path="/admin/teams" element={<TeamManagement />} />
                 </Route>
+
+                {/* not found */}
+                <Route path="/*" element={<>No se econtró esta ruta</>} />
             </Routes>
         </BrowserRouter>
     );

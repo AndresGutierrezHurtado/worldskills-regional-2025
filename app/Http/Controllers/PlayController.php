@@ -17,17 +17,17 @@ class PlayController extends Controller
     public function index()
     {
         try {
-            $plays = Play::with('teams')->orderBy('play_date', 'desc')->get();
+            $plays = Play::with('teams')->orderBy('play_date', 'desc')->orderBy('play_start', 'desc')->get();
 
             return response()->json([
-                'success' => false,
-                'message' => 'Se ... correctamente: ',
+                'success' => true,
+                'message' => 'Se obtuvieron los partidos correctamente: ',
                 'data' => $plays
             ], 200);
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
-                'message' => 'Hubo un error al ...: ' . $e->getMessage(),
+                'message' => 'Hubo un error al obtener los partidos: ' . $e->getMessage(),
             ], 500);
         }
     }
@@ -81,7 +81,7 @@ class PlayController extends Controller
             });
 
             return response()->json([
-                'success' => false,
+                'success' => true,
                 'message' => 'Se regitsró el resultado correctamente: ',
                 'data' => $new,
             ], 200);

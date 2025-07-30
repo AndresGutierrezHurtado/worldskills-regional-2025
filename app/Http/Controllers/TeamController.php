@@ -22,7 +22,7 @@ class TeamController extends Controller
             $teams = $teams->get();
 
             return response()->json([
-                'success' => false,
+                'success' => true,
                 'message' => 'Se obtuvieron los equipos correctamente: ',
                 'data' => $teams
             ], 200);
@@ -53,7 +53,7 @@ class TeamController extends Controller
             }
 
             return response()->json([
-                'success' => false,
+                'success' => true,
                 'message' => 'Se obtuvieron las estadísticas correctamente: ',
                 'data' => $result
             ], 200);
@@ -88,7 +88,7 @@ class TeamController extends Controller
 
             $data = [
                 'team_name' => request()->input('team_name'),
-                'team_name' => request()->input('team_code'),
+                'team_code' => request()->input('team_code'),
                 'team_flag' => '/storage/teams/default.jpg',
             ];
 
@@ -96,10 +96,10 @@ class TeamController extends Controller
 
             request()->file('team_flag')->storeAs('teams', $new->team_id . '.png', 'public');
 
-            $new->update(['team_flag', "/storage/teams/{$new->team_id}.png"]);
+            $new->update(['team_flag' => "/storage/teams/{$new->team_id}.png"]);
 
             return response()->json([
-                'success' => false,
+                'success' => true,
                 'message' => 'Se almacenó el equipo correctamente: ',
                 'data' => $new
             ], 200);
@@ -124,7 +124,7 @@ class TeamController extends Controller
             $result['stats'] = $team->stats();
 
             return response()->json([
-                'success' => false,
+                'success' => true,
                 'message' => 'Se Obtuvo el equipo correctamente: ',
                 'data' => $result,
             ], 200);
