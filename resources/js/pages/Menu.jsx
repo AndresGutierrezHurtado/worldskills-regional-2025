@@ -17,7 +17,7 @@ export default function Menu() {
             <div className="flex flex-col gap-6">
                 <Link
                     to="/teams"
-                    className="w-full p-3 bg-white/20 border rounded-xl flex gap-5 items-center"
+                    className="w-full p-3 bg-white/20 border border-white/50 rounded-xl flex gap-5 items-center bg-gradient-to-r from-sky-900 via-blue-900 to-orange-900"
                 >
                     <figure
                         className="aspect-square rounded-full p-1"
@@ -51,7 +51,7 @@ export default function Menu() {
                 </Link>
                 <Link
                     to="/results"
-                    className="w-full p-3 bg-white/20 border rounded-xl flex gap-5 items-center"
+                    className="w-full p-3 bg-white/20 border border-white/50 rounded-xl flex gap-5 items-center bg-gradient-to-r from-amber-900 via-orange-900 to-sky-900"
                 >
                     <figure
                         className="aspect-square rounded-lg p-1"
@@ -85,7 +85,7 @@ export default function Menu() {
                 </Link>
                 <Link
                     to="/ranking"
-                    className="w-full p-3 bg-white/20 border rounded-xl flex gap-5 items-center"
+                    className="w-full p-3 bg-white/20 border border-white/50 rounded-xl flex gap-5 items-center bg-gradient-to-r from-sky-900 via-blue-900 to-sky-900"
                 >
                     <figure
                         className="aspect-square rounded-lg p-1"

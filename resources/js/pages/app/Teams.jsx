@@ -28,7 +28,7 @@ export default function Team() {
 
             {/* filters */}
             <div className="w-full">
-                <label className="flex items-center gap-2 p-2 border rounded w-full">
+                <label className="flex items-center gap-2 p-2 border border-white/50 rounded w-full">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -68,7 +68,7 @@ export default function Team() {
                     <Link
                         to={`/teams/${team.team_id}`}
                         key={team.team_id}
-                        className="w-full p-5 bg-white/10 border rounded-xl flex gap-5 items-center"
+                        className="w-full p-5 bg-white/10 border border-white/50 rounded-xl flex gap-5 items-center bg-gradient-to-r from-sky-800 to-blue-950"
                     >
                         <figure
                             className="aspect-square overflow-hidden rounded-lg bg-white/10"
