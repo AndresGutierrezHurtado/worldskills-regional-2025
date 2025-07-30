@@ -83,6 +83,9 @@ class TeamController extends Controller
                     'team_code.min' => 'El código del equipo debe tener 3 carácteres',
                     'team_code.max' => 'El código del equipo debe tener 3 carácteres',
                     'team_flag.required' => 'La imagen del equipo es requerida',
+                    'team_flag.image' => 'El archivo debe ser una imagen',
+                    'team_flag.dimensions' => 'La imagen debe tener 500px x 500px',
+                    'team_flag.max' => 'La imagen debe pesar máximo 3MB',
                 ]
             );
 
