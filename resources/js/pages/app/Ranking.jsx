@@ -70,7 +70,7 @@ export default function Ranking() {
                                     </Link>
                                 </td>
                                 <td>{team.stats.points}</td>
-                                <td>{team.stats.total_player}</td>
+                                <td>{team.stats.total_played}</td>
                                 <td>{team.stats.win}</td>
                                 <td>{team.stats.drawn}</td>
                                 <td>{team.stats.lost}</td>

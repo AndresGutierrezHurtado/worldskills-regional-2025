@@ -68,11 +68,11 @@ export default function Team() {
                     <Link
                         to={`/teams/${team.team_id}`}
                         key={team.team_id}
-                        className="w-full p-3 bg-white/10 border rounded-xl flex gap-5 items-center"
+                        className="w-full p-5 bg-white/10 border rounded-xl flex gap-5 items-center"
                     >
                         <figure
                             className="aspect-square overflow-hidden rounded-lg bg-white/10"
-                            style={{ width: "10rem", flexShrink: 0 }}
+                            style={{ width: "8.5rem", flexShrink: 0 }}
                         >
                             <img
                                 src={team.team_flag}

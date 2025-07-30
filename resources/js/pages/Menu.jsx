@@ -97,7 +97,7 @@ export default function Menu() {
                         className="text-4xl font-bold"
                         style={{ lineHeight: 1.1 }}
                     >
-                        Top de posiciones
+                        Tabla de posiciones
                     </h1>
                 </Link>
             </div>

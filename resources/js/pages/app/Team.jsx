@@ -56,7 +56,7 @@ export default function Team() {
                 <h1 className="text-center text-4xl text-white font-bold">
                     Resumen
                 </h1>
-                <div>
+                <div className="text-lg font-semibold">
                     <div className="flex justify-between items-center">
                         <p>Posicion</p>
                         <p>
