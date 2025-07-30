@@ -16,6 +16,7 @@ export default function Team() {
         useGetData("/teams/ranking");
 
     if (teamLoading || rankingLoading) return <LoadingComponent />;
+    if (!team) return <NotTeam />;
 
     const sortedRanking = ranking.sort(
         (a, b) => b.stats.points - a.stats.points
@@ -96,6 +97,20 @@ export default function Team() {
                     </div>
                 </div>
             </div>
+        </div>
+    );
+}
+
+function NotTeam() {
+    return (
+        <div className="w-full py-10 flex justify-center items-center text-4xl font-bold">
+            <Link
+                to="/teams"
+                className="absolute top-5 left-5 rounded-full hover:bg-white/20 cursor-pointer"
+            >
+                <ArrowLeftIcon />
+            </Link>
+            <h1>No se encontro este equipo</h1>
         </div>
     );
 }
