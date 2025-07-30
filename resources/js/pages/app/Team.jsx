@@ -1,5 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { ArrowLeftIcon } from "lucide-react";
 
 // Hooks
 import { useGetData } from "../../hooks/useapi";
@@ -9,6 +10,7 @@ import LoadingComponent from "../../components/LoadingComponent";
 
 export default function Team() {
     const { id } = useParams();
+
     const { data: team, loading: teamLoading } = useGetData(`/teams/${id}`);
     const { data: ranking, loading: rankingLoading } =
         useGetData("/teams/ranking");
@@ -22,6 +24,12 @@ export default function Team() {
     const rank = sortedRanking.findIndex((t) => t.team_id === parseInt(id)) + 1;
     return (
         <div className="flex flex-col gap-8">
+            <Link
+                to="/teams"
+                className="absolute top-5 left-5 rounded-full hover:bg-white/20 cursor-pointer"
+            >
+                <ArrowLeftIcon />
+            </Link>
             {/* Flag */}
             <figure
                 className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto"

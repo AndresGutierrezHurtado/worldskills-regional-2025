@@ -34,6 +34,8 @@ class Team extends Model
             'goals_for' => 0,
             'goals_against' => 0,
             'goals_difference' => 0,
+            'yellow' => 0,
+            'red' => 0,
         ];
 
         $plays = $this->plays;
@@ -45,6 +47,8 @@ class Team extends Model
             // Goals
             $stats['goals_for'] += $current->pivot->team_goals;
             $stats['goals_against'] += $other->pivot->team_goals;
+            $stats['yellow'] += $current->pivot->team_yellow;
+            $stats['red'] += $other->pivot->team_red;
 
             // Matches
             if ($current->pivot->team_goals === $other->pivot->team_goals) {

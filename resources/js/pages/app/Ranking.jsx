@@ -2,6 +2,7 @@ import React from "react";
 import { useGetData } from "../../hooks/useapi";
 import LoadingComponent from "../../components/LoadingComponent";
 import { PrinterIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Ranking() {
     const { data: ranking, loading: rankingLoading } =
@@ -37,6 +38,8 @@ export default function Ranking() {
                             <th>GF</th>
                             <th>GC</th>
                             <th>GD</th>
+                            <th>TA</th>
+                            <th>TR</th>
                             <th>Calificado</th>
                         </tr>
                     </thead>
@@ -44,7 +47,10 @@ export default function Ranking() {
                         {ranking.map((team, idx) => (
                             <tr>
                                 <td>
-                                    <div className="flex items-center gap-2 p-1">
+                                    <Link
+                                        to={"/teams/" + team.team_id}
+                                        className="flex items-center gap-2 p-1"
+                                    >
                                         {/* Flag */}
                                         <figure
                                             className="aspect-square overflow-hidden rounded bg-white/10"
@@ -61,7 +67,7 @@ export default function Ranking() {
                                         </figure>
 
                                         <h1>{team.team_name}</h1>
-                                    </div>
+                                    </Link>
                                 </td>
                                 <td>{team.stats.points}</td>
                                 <td>{team.stats.total_player}</td>
@@ -75,6 +81,8 @@ export default function Ranking() {
                                         ? team.stats.goals_difference
                                         : `+${team.stats.goals_difference}`}
                                 </td>
+                                <td>{team.stats.yellow}</td>
+                                <td>{team.stats.red}</td>
                                 <td>{idx < 4 ? "✔" : "❌"}</td>
                             </tr>
                         ))}
