@@ -20,7 +20,7 @@ export default function App() {
                     {/* View Routes */}
                     <Route index element={<Menu />} />
                     <Route path="/teams" element={<Teams />} />
-                    <Route path="/team/:id" element={<Team />} />
+                    <Route path="/teams/:id" element={<Team />} />
                     <Route path="/results" element={<Results />} />
                     <Route path="/ranking" element={<Ranking />} />
 
