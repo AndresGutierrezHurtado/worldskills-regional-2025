@@ -18,14 +18,14 @@ export default function Ranking() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Selecciones de fútbol
             </h1>
 
             {/* Content */}
-            <div className="w-full overflow-x-auto bg-white/20 rounded-lg">
+            <div className="w-full overflow-x-auto bg-white/20 rounded-lg z-10">
                 <table>
                     <thead className="bg-white/20">
                         <tr>
@@ -91,7 +91,7 @@ export default function Ranking() {
             </div>
 
             {/* Next contestants */}
-            <div className="space-y-2">
+            <div className="space-y-2 z-10">
                 <p className="leading-tight">
                     Los equipos que pasan a la siguiente fase son los
                     siguientes:{" "}
@@ -107,7 +107,7 @@ export default function Ranking() {
             {/* Print button */}
             <button
                 onClick={() => window.print()}
-                className="w-full text-white flex items-center justify-center cursor-pointer gap-2 rounded-lg p-2 active:scale-95 duration-100"
+                className="w-full text-white flex items-center justify-center cursor-pointer gap-2 rounded-lg p-2 active:scale-95 duration-100 z-10"
                 style={{
                     backgroundColor: "#01943b",
                 }}

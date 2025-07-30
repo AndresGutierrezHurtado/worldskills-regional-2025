@@ -31,14 +31,14 @@ export default function ResultManagement() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Registrar resultado
             </h1>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4 z-10">
                 <div className="flex gap-2 w-full">
                     <fieldset className="w-full flex flex-col gap-2">
                         <label
@@ -270,7 +270,7 @@ export default function ResultManagement() {
                         </label>
                     </fieldset>
                 </div>
-                <fieldset className="pt-5">
+                <fieldset className="pt-5 z-10">
                     <button
                         className="w-full text-white flex items-center justify-center cursor-pointer gap-2 rounded-lg p-2 active:scale-95 duration-100"
                         style={{

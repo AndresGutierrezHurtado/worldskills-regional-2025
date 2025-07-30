@@ -9,7 +9,7 @@ export default function AppLayout() {
             </main>
             <footer
                 className="fixed bottom-2 right-2 left-2 p-3 rounded-xl"
-                style={{ backgroundColor: "#01943b", color: "#fcbe31" }}
+                style={{ backgroundColor: "#01943b", color: "#fcbe31", zIndex: 9999}}
             >
                 <nav
                     className="w-full h-full flex items-center justify-center gap-5"
@@ -67,6 +67,34 @@ export default function AppLayout() {
                     </Link>
                 </nav>
             </footer>
+            <div
+                className="fixed bottom-1 left-1 w-10 h-10 blur-3xl bg-orange-500/25"
+                style={{
+                    width: "10rem",
+                    height: "20rem",
+                }}
+            ></div>
+            <div
+                className="fixed bottom-1 right-1 w-10 h-10 blur-3xl bg-orange-500/25"
+                style={{
+                    width: "20rem",
+                    height: "10rem",
+                }}
+            ></div>
+            <div
+                className="fixed bottom-1/2 left-1 w-10 h-10 blur-3xl bg-sky-500/25"
+                style={{
+                    width: "10rem",
+                    height: "20rem",
+                }}
+            ></div>
+            <div
+                className="fixed bottom-1/2 right-1 w-10 h-10 blur-3xl bg-sky-500/25"
+                style={{
+                    width: "10rem",
+                    height: "20rem",
+                }}
+            ></div>
         </div>
     );
 }

@@ -15,14 +15,14 @@ export default function Results() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Selecciones de fútbol
             </h1>
 
             {/* filters */}
-            <div className="w-full">
+            <div className="w-full z-10">
                 <label className="flex items-center gap-2 p-2 border rounded w-full">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ export default function Results() {
             </div>
 
             {/* Content */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 z-10">
                 {results.length === 0 && (
                     <div className="text-4xl font-bold text-center">
                         No se encontró un partido con esas condiciones
@@ -75,7 +75,7 @@ export default function Results() {
                     return (
                         <div
                             key={idx}
-                            className="w-full p-3 bg-white/10 border rounded-xl flex justify-between gap-5"
+                            className="w-full p-3 bg-white/10 border rounded-xl flex justify-between gap-5 z-10"
                         >
                             <Link
                                 to={`/teams/${local.team_id}`}
@@ -84,7 +84,7 @@ export default function Results() {
                             >
                                 <div className="relative">
                                     <figure
-                                        className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto "
+                                        className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto"
                                         style={{
                                             width: "6rem",
                                             flexShrink: 0,

@@ -25,18 +25,18 @@ export default function TeamManagement() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Registrar selección
             </h1>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4 z-10">
                 <fieldset className="w-full flex flex-col gap-2">
                     <label
                         htmlFor="team_name"
-                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1"
+                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1 z-10"
                     >
                         Nombre:
                     </label>
@@ -73,7 +73,7 @@ export default function TeamManagement() {
                 <fieldset className="w-full flex flex-col gap-2">
                     <label
                         htmlFor="team_code"
-                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1"
+                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1 z-10"
                     >
                         Código:
                     </label>
@@ -102,7 +102,7 @@ export default function TeamManagement() {
                 <fieldset className="w-full flex flex-col gap-2">
                     <label
                         htmlFor="team_flag"
-                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1"
+                        className="opacity-80 after:content['*'] after:text-red-500 after:ml-1 z-10"
                     >
                         Imagen:
                     </label>

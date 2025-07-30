@@ -20,14 +20,14 @@ export default function Team() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Selecciones de fútbol
             </h1>
 
             {/* filters */}
-            <div className="w-full">
+            <div className="w-full z-10">
                 <label className="flex items-center gap-2 p-2 border border-white/50 rounded w-full">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Team() {
             </div>
 
             {/* content */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 z-10">
                 {teams.length === 0 && (
                     <div className="text-4xl font-bold text-center">
                         No se encontró ese país

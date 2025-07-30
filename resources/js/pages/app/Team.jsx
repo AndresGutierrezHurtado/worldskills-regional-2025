@@ -33,7 +33,7 @@ export default function Team() {
             </Link>
             {/* Flag */}
             <figure
-                className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto"
+                className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto z-10"
                 style={{ width: "10rem", flexShrink: 0, marginTop: "5rem" }}
             >
                 <img
@@ -45,14 +45,14 @@ export default function Team() {
 
             {/* Name */}
             <h1
-                className="text-center text-5xl font-bold"
+                className="text-center text-5xl font-bold z-10"
                 style={{ color: "#f6c235" }}
             >
                 {team.team_name}
             </h1>
 
             {/* content */}
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 z-10">
                 <h1 className="text-center text-4xl text-white font-bold">
                     Resumen
                 </h1>
