@@ -44,7 +44,10 @@ export default function Team() {
             </figure>
 
             {/* Name */}
-            <h1 className="text-center text-5xl text-yellow-500 font-bold">
+            <h1
+                className="text-center text-5xl font-bold"
+                style={{ color: "#f6c235" }}
+            >
                 {team.team_name}
             </h1>
 

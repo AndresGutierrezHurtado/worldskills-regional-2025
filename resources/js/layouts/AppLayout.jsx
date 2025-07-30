@@ -9,7 +9,7 @@ export default function AppLayout() {
             </main>
             <footer
                 className="fixed bottom-2 right-2 left-2 p-3 rounded-xl"
-                style={{ backgroundColor: "green", color: "yellow" }}
+                style={{ backgroundColor: "#01943b", color: "#fcbe31" }}
             >
                 <nav
                     className="w-full h-full flex items-center justify-center gap-5"

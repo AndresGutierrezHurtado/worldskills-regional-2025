@@ -7,8 +7,8 @@ export default function Menu() {
         <div className="flex flex-col gap-10">
             {/* Title */}
             <h1
-                className="text-center text-5xl text-yellow-500 font-bold"
-                style={{ marginTop: "5rem" }}
+                className="text-center text-5xl font-bold"
+                style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Bienvenido
             </h1>
@@ -21,7 +21,7 @@ export default function Menu() {
                 >
                     <figure
                         className="aspect-square rounded-full p-1"
-                        style={{ backgroundColor: "green" }}
+                        style={{ backgroundColor: "#01943b" }}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function Menu() {
                 >
                     <figure
                         className="aspect-square rounded-lg p-1"
-                        style={{ backgroundColor: "green" }}
+                        style={{ backgroundColor: "#01943b" }}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export default function Menu() {
                 >
                     <figure
                         className="aspect-square rounded-lg p-1"
-                        style={{ backgroundColor: "green" }}
+                        style={{ backgroundColor: "#01943b" }}
                     >
                         <MedalIcon size={80} />
                     </figure>

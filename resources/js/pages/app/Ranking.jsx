@@ -18,8 +18,8 @@ export default function Ranking() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl text-yellow-500 font-bold"
-                style={{ marginTop: "5rem" }}
+                className="text-center text-5xl font-bold"
+                style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Selecciones de fútbol
             </h1>
@@ -107,7 +107,10 @@ export default function Ranking() {
             {/* Print button */}
             <button
                 onClick={() => window.print()}
-                className="w-full text-white flex items-center justify-center cursor-pointer gap-2 bg-[green] rounded-lg p-2 active:scale-95 duration-100"
+                className="w-full text-white flex items-center justify-center cursor-pointer gap-2 rounded-lg p-2 active:scale-95 duration-100"
+                style={{
+                    backgroundColor: "#01943b",
+                }}
             >
                 <PrinterIcon size={18} />
                 Imprimir

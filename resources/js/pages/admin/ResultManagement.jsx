@@ -31,8 +31,8 @@ export default function ResultManagement() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl text-yellow-500 font-bold"
-                style={{ marginTop: "5rem" }}
+                className="text-center text-5xl font-bold"
+                style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Registrar resultado
             </h1>
@@ -102,7 +102,11 @@ export default function ResultManagement() {
                                 Selecciona el equipo local
                             </option>
                             {teams.map((t) => (
-                                <option key={t.team_id} className="text-black" value={t.team_id}>
+                                <option
+                                    key={t.team_id}
+                                    className="text-black"
+                                    value={t.team_id}
+                                >
                                     {t.team_name} ({t.team_code})
                                 </option>
                             ))}
@@ -193,7 +197,11 @@ export default function ResultManagement() {
                                 Selecciona el equipo visitante
                             </option>
                             {teams.map((t) => (
-                                <option key={t.team_id} value={t.team_id} className="text-black">
+                                <option
+                                    key={t.team_id}
+                                    value={t.team_id}
+                                    className="text-black"
+                                >
                                     {t.team_name} ({t.team_code})
                                 </option>
                             ))}
@@ -263,7 +271,12 @@ export default function ResultManagement() {
                     </fieldset>
                 </div>
                 <fieldset className="pt-5">
-                    <button className="w-full text-white flex items-center justify-center cursor-pointer gap-2 bg-[green] rounded-lg p-2 active:scale-95 duration-100">
+                    <button
+                        className="w-full text-white flex items-center justify-center cursor-pointer gap-2 rounded-lg p-2 active:scale-95 duration-100"
+                        style={{
+                            backgroundColor: "#01943b",
+                        }}
+                    >
                         <UploadIcon size={18} />
                         Enviar
                     </button>

@@ -20,8 +20,8 @@ export default function Team() {
         <div className="flex flex-col gap-8">
             {/* Title */}
             <h1
-                className="text-center text-5xl text-yellow-500 font-bold"
-                style={{ marginTop: "5rem" }}
+                className="text-center text-5xl font-bold"
+                style={{ marginTop: "5rem", color: "#f6c235" }}
             >
                 Selecciones de fútbol
             </h1>
