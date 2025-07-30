@@ -99,40 +99,40 @@ class DatabaseSeeder extends Seeder
                 'team_red' => 0,
                 'team_yellow' => 0
             ],
-            // // Play 3
-            // [
-            //     'team_id' => 1,
-            //     'play_id' => 1,
-            //     'team_local' => true,
-            //     'team_goals' => 3,
-            //     'team_red' => 0,
-            //     'team_yellow' => 1
-            // ],
-            // [
-            //     'team_id' => 3,
-            //     'play_id' => 1,
-            //     'team_local' => false,
-            //     'team_goals' => 2,
-            //     'team_red' => 1,
-            //     'team_yellow' => 2
-            // ],
-            // // Play 4
-            // [
-            //     'team_id' => 1,
-            //     'play_id' => 1,
-            //     'team_local' => true,
-            //     'team_goals' => 3,
-            //     'team_red' => 0,
-            //     'team_yellow' => 1
-            // ],
-            // [
-            //     'team_id' => 3,
-            //     'play_id' => 1,
-            //     'team_local' => false,
-            //     'team_goals' => 2,
-            //     'team_red' => 1,
-            //     'team_yellow' => 2
-            // ],
+            // Play 3
+            [
+                'team_id' => 1,
+                'play_id' => 3,
+                'team_local' => true,
+                'team_goals' => 3,
+                'team_red' => 0,
+                'team_yellow' => 0
+            ],
+            [
+                'team_id' => 4,
+                'play_id' => 3,
+                'team_local' => false,
+                'team_goals' => 2,
+                'team_red' => 0,
+                'team_yellow' => 0
+            ],
+            // Play 4
+            [
+                'team_id' => 2,
+                'play_id' => 4,
+                'team_local' => true,
+                'team_goals' => 3,
+                'team_red' => 2,
+                'team_yellow' => 1
+            ],
+            [
+                'team_id' => 3,
+                'play_id' => 4,
+                'team_local' => false,
+                'team_goals' => 2,
+                'team_red' => 1,
+                'team_yellow' => 2
+            ],
         ]);
     }
 }
