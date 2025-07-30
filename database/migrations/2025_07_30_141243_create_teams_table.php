@@ -12,8 +12,25 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('teams', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('team_id');
+            $table->string('team_name');
+            $table->string('team_code');
+            $table->string('team_flag');
+        });
+
+        Schema::create('plays', function (Blueprint $table) {
+            $table->id('play_id');
+            $table->date('play_date');
+            $table->time('play_start');
+        });
+
+        Schema::create('play_teams', function (Blueprint $table) {
+            $table->foreignId('team_id')->constrained('teams', 'team_id');
+            $table->foreignId('play_id')->constrained('plays', 'play_id');
+            $table->integer('team_goals');
+            $table->boolean('team_local');
+            $table->integer('team_red');
+            $table->integer('team_yellow');
         });
     }
 
