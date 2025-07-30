@@ -15,7 +15,7 @@ export default function AppLayout() {
                     className="w-full h-full flex items-center justify-center gap-5"
                     style={{ gap: "3rem" }}
                 >
-                    <Link to="/">
+                    <Link to="/" className="cursor-pointer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="40"
@@ -38,7 +38,7 @@ export default function AppLayout() {
                         alt="Imagen de inicio"
                         style={{ width: 45, aspectRatio: 1 }}
                     />
-                    <Link to="/admin">
+                    <Link to="/admin" className="cursor-pointer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="40"

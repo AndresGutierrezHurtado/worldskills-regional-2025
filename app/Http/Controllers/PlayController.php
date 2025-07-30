@@ -104,7 +104,7 @@ class PlayController extends Controller
 
             return response()->json([
                 'success' => true,
-                'message' => 'Se regitsró el resultado correctamente: ',
+                'message' => 'Se registró el resultado correctamente',
                 'data' => $new,
             ], 200);
         } catch (\Exception $e) {

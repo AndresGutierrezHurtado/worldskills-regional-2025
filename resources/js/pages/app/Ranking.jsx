@@ -79,7 +79,9 @@ export default function Ranking() {
                                 <td>
                                     {team.stats.goals_difference < 0
                                         ? team.stats.goals_difference
-                                        : `+${team.stats.goals_difference}`}
+                                        : team.stats.goals_difference > 0
+                                        ? `+${team.stats.goals_difference}`
+                                        : team.stats.goals_difference}
                                 </td>
                                 <td>{team.stats.yellow}</td>
                                 <td>{team.stats.red}</td>

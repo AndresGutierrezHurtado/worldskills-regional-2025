@@ -129,6 +129,7 @@ export default function ResultManagement() {
                             className="grow"
                             placeholder="Ingresa los goles del equipo local"
                             title="El campo es requerido"
+                            min={0}
                             required
                         />
                     </label>
@@ -150,6 +151,7 @@ export default function ResultManagement() {
                                 className="grow"
                                 placeholder="Ingresa las tarjetas rojas recibidas"
                                 title="El campo es requerido"
+                                min={0}
                                 required
                             />
                         </label>
@@ -171,6 +173,7 @@ export default function ResultManagement() {
                                 className="grow"
                                 placeholder="Ingresa las tarjetas amarillas recibidas"
                                 title="El campo es requerido"
+                                min={0}
                                 required
                             />
                         </label>
@@ -224,6 +227,7 @@ export default function ResultManagement() {
                             className="grow"
                             placeholder="Ingresa los goles del equipo visitante"
                             title="El campo es requerido"
+                            min={0}
                             required
                         />
                     </label>
@@ -245,6 +249,7 @@ export default function ResultManagement() {
                                 className="grow"
                                 placeholder="Ingresa las tarjetas rojas recibidas"
                                 title="El campo es requerido"
+                                min={0}
                                 required
                             />
                         </label>
@@ -265,6 +270,7 @@ export default function ResultManagement() {
                                 className="grow"
                                 placeholder="Ingresa las tarjetas amarillas recibidas"
                                 title="El campo es requerido"
+                                min={0}
                                 required
                             />
                         </label>
