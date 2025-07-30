@@ -82,19 +82,45 @@ export default function Results() {
                                 className="flex flex-col gap-2 items-center"
                                 style={{ maxWidth: "6.5rem", flexShrink: 0 }}
                             >
-                                <figure
-                                    className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto"
-                                    style={{
-                                        width: "6rem",
-                                        flexShrink: 0,
-                                    }}
-                                >
-                                    <img
-                                        src={local.team_flag}
-                                        alt={`Imagen del equipo ${local.team_name}`}
-                                        className="w-full h-full object-cover"
-                                    />
-                                </figure>
+                                <div className="relative">
+                                    <figure
+                                        className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto "
+                                        style={{
+                                            width: "6rem",
+                                            flexShrink: 0,
+                                        }}
+                                    >
+                                        <img
+                                            src={local.team_flag}
+                                            alt={`Imagen del equipo ${local.team_name}`}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </figure>
+                                    {local.pivot.team_goals >
+                                        other.pivot.team_goals && (
+                                        <div
+                                            className="absolute text-green-50 border shadow-lg shadow-black/80 font-bold bg-green-700 px-3 py-1 rounded-lg"
+                                            style={{
+                                                top: "-1rem",
+                                                left: "-1rem",
+                                            }}
+                                        >
+                                            ¡Ganador!
+                                        </div>
+                                    )}
+                                    {other.pivot.team_goals ===
+                                        local.pivot.team_goals && (
+                                        <div
+                                            className="absolute text-gray-50 border shadow-lg shadow-black/80 font-bold bg-gray-700 px-3 py-1 rounded-lg"
+                                            style={{
+                                                top: "-1rem",
+                                                left: "-1rem",
+                                            }}
+                                        >
+                                            Empatados
+                                        </div>
+                                    )}
+                                </div>
                                 <h3 className="text-lg font-bold text-center leading-[110%]">
                                     {local.team_name} ({local.team_code})
                                 </h3>
@@ -120,19 +146,45 @@ export default function Results() {
                                 className="flex flex-col gap-2 items-center"
                                 style={{ maxWidth: "6.5rem", flexShrink: 0 }}
                             >
-                                <figure
-                                    className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto"
-                                    style={{
-                                        width: "6rem",
-                                        flexShrink: 0,
-                                    }}
-                                >
-                                    <img
-                                        src={other.team_flag}
-                                        alt={`Imagen del equipo ${other.team_name}`}
-                                        className="w-full h-full object-cover"
-                                    />
-                                </figure>
+                                <div className="relative">
+                                    <figure
+                                        className="aspect-square overflow-hidden rounded-lg bg-white/10 mx-auto "
+                                        style={{
+                                            width: "6rem",
+                                            flexShrink: 0,
+                                        }}
+                                    >
+                                        <img
+                                            src={other.team_flag}
+                                            alt={`Imagen del equipo ${other.team_name}`}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </figure>
+                                    {other.pivot.team_goals >
+                                        local.pivot.team_goals && (
+                                        <div
+                                            className="absolute text-green-50 border shadow-lg shadow-black/80 font-bold bg-green-700 px-3 py-1 rounded-lg"
+                                            style={{
+                                                top: "-1rem",
+                                                left: "-1rem",
+                                            }}
+                                        >
+                                            ¡Ganador!
+                                        </div>
+                                    )}
+                                    {other.pivot.team_goals ===
+                                        local.pivot.team_goals && (
+                                        <div
+                                            className="absolute text-gray-50 border shadow-lg shadow-black/80 font-bold bg-gray-700 px-3 py-1 rounded-lg"
+                                            style={{
+                                                top: "-1rem",
+                                                left: "-1rem",
+                                            }}
+                                        >
+                                            Empatados
+                                        </div>
+                                    )}
+                                </div>
                                 <h3 className="text-lg font-bold text-center leading-[110%]">
                                     {other.team_name} ({other.team_code})
                                 </h3>
