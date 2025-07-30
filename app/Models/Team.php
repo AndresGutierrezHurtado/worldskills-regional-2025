@@ -58,7 +58,7 @@ class Team extends Model
 
         $stats['total_played'] = $stats['win'] + $stats['lost'] + $stats['drawn'];
         $stats['points'] = ($stats['win'] * 3) + $stats['drawn'];
-        $stats['goals_difference'] = $stats['goals_for'] - $stats['goals_difference'];
+        $stats['goals_difference'] = $stats['goals_for'] - $stats['goals_against'];
 
         return $stats;
     }

@@ -14,3 +14,8 @@ body {
     background-color: #040a3e;
     color: #ffffff;
 }
+
+td, th {
+    padding: 0.25rem;
+    text-align: center;
+}
