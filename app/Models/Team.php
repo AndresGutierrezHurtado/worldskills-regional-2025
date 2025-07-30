@@ -17,9 +17,9 @@ class Team extends Model
         'team_flag',
     ];
 
-    public function teams(): BelongsToMany
+    public function plays(): BelongsToMany
     {
-        return $this->belongsToMany(Team::class, 'play_teams', 'play_id', 'team_id')
+        return $this->belongsToMany(Play::class, 'play_teams', 'play_id', 'team_id')
             ->withPivot('team_local', 'team_goals', 'team_red', 'team_yellow');
     }
 
