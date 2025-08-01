@@ -24,15 +24,16 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 <div align="center">
 
-### 🥇 Primer Lugar Regional - WorldSkills Bogotá 2025
-
 <img src="extra/medalla.jpg" alt="Medalla de Oro" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+
 *Medalla de primer puesto obtenida en la competencia regional*
 
 <img src="extra/prueba.jpg" alt="Momento de la Prueba" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+
 *Durante la ejecución de las pruebas técnicas*
 
 <img src="extra/premiacion.jpg" alt="Ceremonia de Premiación" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+
 *Ceremonia de premiación y reconocimiento*
 
 </div>
