@@ -8,42 +8,43 @@ Gracias a la implementación efectiva de cada componente, desde la autenticació
 
 [Ver detalles solución entregada](./proyecto/README.md)
 
-## 🏗️ Proyecto Principal
-
-### Aplicación Laravel Completa
-
-El proyecto desarrollado es una aplicación web full-stack que incluye:
-
--   **Backend Laravel**: API RESTful con autenticación
--   **Frontend React**: Interfaz de usuario moderna e interactiva
--   **Base de Datos**: Migraciones y modelos Eloquent
--   **Autenticación**: Sistema de login y registro
--   **Gestión de Datos**: CRUD completo para entidades
+---
 
 ## 🎯 Componentes Evaluados
 
-### Backend con Laravel
+La evaluación del Módulo B se centró principalmente en la **fidelidad con los requerimientos del documento oficial**, exigiendo que la aplicación implementara de manera precisa todas las vistas y funcionalidades descritas en el PDF entregado. Para esto, se evaluó que cada interfaz solicitada estuviera correctamente desarrollada, que los datos se consumieran directamente desde una **API construida en PHP (Laravel)** y que la aplicación fuera completamente **responsiva**, adaptándose a dispositivos móviles sin comprometer la usabilidad.
 
--   **Framework**: Laravel 10.x
--   **Arquitectura**: MVC (Model-View-Controller)
--   **API**: Endpoints RESTful para gestión de datos
--   **Autenticación**: Sistema de usuarios con Sanctum
--   **Base de Datos**: MySQL con migraciones Eloquent
+Además, se valoró que cada acción descrita en el documento —como el registro, visualización, edición y gestión de los países y partidos— se ejecutara correctamente en la plataforma final, con flujos funcionales completos y una experiencia de usuario coherente. La integración efectiva entre el frontend y el backend, el cumplimiento visual y técnico de los lineamientos, y la estabilidad general del sistema fueron aspectos clave dentro de esta etapa de evaluación.
 
-### Frontend con React
+---
 
--   **Framework**: React con Vite
--   **Componentes**: Arquitectura modular y reutilizable
--   **Estado**: Gestión de estado con hooks
--   **Rutas**: Navegación con React Router
--   **Estilos**: CSS moderno y responsivo
+## 🚀 Tecnologías Utilizadas
 
-### Base de Datos
+### Backend
 
--   **Migraciones**: Estructura de tablas optimizada
--   **Modelos**: Relaciones Eloquent entre entidades
--   **Seeders**: Datos de prueba para desarrollo
--   **Factories**: Generación de datos de prueba
+-   **Laravel 12.0**: Framework PHP moderno
+-   **PHP 8.2**: Lenguaje de programación backend
+-   **MySQL**: Base de datos relacional
+-   **Eloquent ORM**: Mapeo objeto-relacional
+-   **Artisan CLI**: Herramientas de desarrollo
+
+### Frontend
+
+-   **React 19**: Biblioteca de componentes
+-   **Vite**: Build tool moderno
+-   **JSX**: Sintaxis de componentes
+-   **CSS3**: Estilos modernos
+-   **Responsive Design**: Diseño adaptativo
+-   **TailwindCSS v4**: Diseño adaptativo
+
+### Herramientas de Desarrollo
+
+-   **Composer**: Gestión de dependencias PHP
+-   **npm**: Gestión de dependencias JavaScript
+-   **Git**: Control de versiones
+-   **Artisan**: CLI de Laravel
+
+---
 
 ## 📁 Estructura del Proyecto
 
@@ -79,29 +80,3 @@ dia-02/
     ├── iconos/                              # Iconos del sistema
     └── estilos.json                         # Configuración de colores
 ```
-
-## 🚀 Tecnologías Utilizadas
-
-### Backend
-
--   **Laravel 12.0**: Framework PHP moderno
--   **PHP 8.2**: Lenguaje de programación backend
--   **MySQL**: Base de datos relacional
--   **Eloquent ORM**: Mapeo objeto-relacional
--   **Artisan CLI**: Herramientas de desarrollo
-
-### Frontend
-
--   **React 19**: Biblioteca de componentes
--   **Vite**: Build tool moderno
--   **JSX**: Sintaxis de componentes
--   **CSS3**: Estilos modernos
--   **Responsive Design**: Diseño adaptativo
--   **TailwindCSS v4**: Diseño adaptativo
-
-### Herramientas de Desarrollo
-
--   **Composer**: Gestión de dependencias PHP
--   **npm**: Gestión de dependencias JavaScript
--   **Git**: Control de versiones
--   **Artisan**: CLI de Laravel

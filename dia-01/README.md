@@ -6,14 +6,15 @@ Durante esta jornada, cada participante disponía de un total de **4 horas** par
 
 Las tecnologías utilizadas en este módulo incluyeron **HTML5**, **CSS3** y **JavaScript Vanilla**, y cada tarea evaluó aspectos específicos como lógica de programación, estructura semántica, formularios avanzados, diseño adaptable, animaciones CSS y optimización de recursos con sprites. Este primer día fue clave para establecer el tono de la competencia y demostrar preparación técnica, agilidad mental y enfoque profesional desde el primer momento.
 
-## 📋 Descripción del Módulo
+---
 
-El **Módulo A** se enfoca en las competencias esenciales para el desarrollo frontend moderno, evaluando la capacidad del participante para:
+## 🎯 Componentes Evaluados
 
--   Implementar lógica JavaScript desde básica hasta intermedia
--   Crear estructuras HTML semánticas y accesibles
--   Aplicar estilos CSS con técnicas modernas y responsivas
--   Optimizar recursos y crear animaciones fluidas
+La evaluación del Módulo A se centró en la **calidad del desarrollo frontend** bajo un enfoque integral. No solo se esperaba que cada tarea estuviera técnicamente correcta, sino que también debía estar desarrollada siguiendo **buenas prácticas de código**, con una estructura clara, semántica y eficiente. Se valoró que el resultado fuese **estéticamente cuidado**, funcional, y que reflejara dominio en el uso de tecnologías base como HTML, CSS y JavaScript.
+
+El diseño debía ser limpio, con una **maquetación precisa y responsiva**, asegurando compatibilidad en distintos tamaños de pantalla. También se evaluó la capacidad de **optimización** de recursos, uso adecuado de animaciones, y el cumplimiento de cada requerimiento en el **tiempo establecido**, fomentando una ejecución organizada, disciplinada y orientada al detalle técnico y visual.
+
+---
 
 ## 🎯 Tareas Evaluadas
 
@@ -70,6 +71,8 @@ El **Módulo A** se enfoca en las competencias esenciales para el desarrollo fro
 -   **Objetivo**: Implementar sprites CSS y optimizar recursos
 -   **Tecnologías**: CSS3, Sprites, Optimización
 -   **Evaluación**: Técnicas de optimización y rendimiento
+
+---
 
 ## 📁 Estructura de Archivos
 
