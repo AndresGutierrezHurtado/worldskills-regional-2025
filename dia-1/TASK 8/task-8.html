@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fiestas navideñas</title>
+        <style>
+            * {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                box-sizing: border-box;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 60rem;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+                margin-top: 5rem;
+            }
+
+            .hidden {
+                opacity: 0;
+            }
+
+            .tree {
+                position: relative;
+                background-image: url("./tree.png");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                width: calc(194px * 1.5);
+                height: calc(310px * 1.5);
+                transition: opacity 100ms;
+            }
+
+            .light {
+                position: absolute;
+                width: 1rem;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                background-color: black;
+                box-shadow: 0 0 1rem 4px black;
+            }
+
+            .ball-1 {
+                top: 18.6%;
+                left: 52%;
+                background-color: red;
+                box-shadow: 0 0 1rem 4px red;
+            }
+            .ball-2 {
+                top: 36%;
+                left: 58%;
+                background-color: blue;
+                box-shadow: 0 0 1rem 4px blue;
+            }
+            .ball-3 {
+                top: 37.3%;
+                left: 32%;
+                background-color: purple;
+                box-shadow: 0 0 1rem 4px purple;
+            }
+            .ball-4 {
+                top: 51.5%;
+                left: 62.4%;
+                background-color: purple;
+                box-shadow: 0 0 1rem 4px purple;
+            }
+            .ball-5 {
+                top: 63.5%;
+                left: 23%;
+                background-color: red;
+                box-shadow: 0 0 1rem 4px red;
+            }
+            .ball-6 {
+                top: 69.5%;
+                left: 46.5%;
+                background-color: blue;
+                box-shadow: 0 0 1rem 4px blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="tree">
+                <div class="light ball-1 hidden"></div>
+                <div class="light ball-2 hidden"></div>
+                <div class="light ball-3 hidden"></div>
+                <div class="light ball-4 hidden"></div>
+                <div class="light ball-5 hidden"></div>
+                <div class="light ball-6 hidden"></div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const $lights = document.querySelectorAll(".light");
+                let lastIndex = 0;
+
+                const inter = setInterval(() => {
+                    $lights.forEach((light) => {
+                        if (!light.classList.contains("hidden")) {
+                            light.classList.add("hidden");
+                        }
+                    });
+
+                    let randomInt = Math.floor(Math.random() * 6);
+                    if (randomInt === lastIndex) randomInt = Math.floor(Math.random() * 6);
+                    else lastIndex = randomInt;
+
+                    $lights.item(randomInt).classList.remove("hidden");
+                }, 1000);
+            });
+        </script>
+    </body>
+</html>

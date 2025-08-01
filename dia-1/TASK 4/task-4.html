@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sum boxes</title>
+        <style>
+            * {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                box-sizing: border-box;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 60rem;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 5rem;
+            }
+
+            .box {
+                width: 7rem;
+                height: 7rem;
+                border: 2px solid black;
+                padding: 2rem;
+                font-size: xx-large;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+            input[type="checkbox"] {
+                display: none;
+            }
+            /* checked */
+            #box-1:checked ~ div .box-1 {
+                background-color: yellow;
+            }
+            #box-2:checked ~ div .box-2 {
+                background-color: yellow;
+            }
+            #box-3:checked ~ div .box-3 {
+                background-color: yellow;
+            }
+            #box-4:checked ~ div .box-4 {
+                background-color: yellow;
+            }
+
+            #sum::after {
+                content: "00";
+            }
+
+            /* 1 box */
+            #box-1:checked ~ h1 #sum::after {
+                content: "10";
+            }
+            #box-2:checked ~ h1 #sum::after {
+                content: "32";
+            }
+            #box-3:checked ~ h1 #sum::after {
+                content: "64";
+            }
+            #box-4:checked ~ h1 #sum::after {
+                content: "-15";
+            }
+
+            /* 2 box */
+            #box-1:checked ~ #box-2:checked ~ h1 #sum::after {
+                content: "42";
+            }
+            #box-1:checked ~ #box-3:checked ~ h1 #sum::after {
+                content: "74";
+            }
+            #box-1:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "-5";
+            }
+
+            #box-2:checked ~ #box-3:checked ~ h1 #sum::after {
+                content: "96";
+            }
+            #box-2:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "17";
+            }
+
+            #box-3:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "49";
+            }
+
+            /* 3 box */
+            #box-1:checked ~ #box-2:checked ~ #box-3:checked ~ h1 #sum::after {
+                content: "106";
+            }
+            #box-1:checked ~ #box-2:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "27";
+            }
+            #box-1:checked ~ #box-3:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "59";
+            }
+            #box-2:checked ~ #box-3:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "81";
+            }
+
+            /* 4 box */
+            #box-1:checked ~ #box-2:checked ~ #box-3:checked ~ #box-4:checked ~ h1 #sum::after {
+                content: "91";
+            }
+        </style>
+    </head>
+    <body>
+        <!--  -->
+        <input type="checkbox" id="box-1" />
+        <input type="checkbox" id="box-2" />
+        <input type="checkbox" id="box-3" />
+        <input type="checkbox" id="box-4" />
+
+        <div class="container">
+            <label for="box-1" class="box box-1">10</label>
+            <label for="box-2" class="box box-2">32</label>
+            <label for="box-3" class="box box-3">64</label>
+            <label for="box-4" class="box box-4">-15</label>
+        </div>
+
+        <h1 style="text-align: center">Suma: <span id="sum"></span></h1>
+    </body>
+</html>

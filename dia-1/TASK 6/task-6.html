@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Orbita celestial</title>
+        <style>
+            body {
+                background-color: black;
+                height: 100dvh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                translate: -50% -50%;
+            }
+
+            .plannet {
+                position: relative;
+                width: 1rem;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                background-color: white;
+                box-shadow: 0 0 1rem 5px white;
+            }
+
+            .sun {
+                width: 5rem;
+                background-color: yellow;
+                box-shadow: 0 0 1rem 5px yellow;
+                animation: plannet-rotating 36.5s infinite linear;
+            }
+            .earth {
+                width: 3rem;
+                background-color: blue;
+                box-shadow: 0 0 1rem 5px blue;
+                animation: plannet-rotating 2.7s infinite linear;
+            }
+            .moon {
+                width: 1.5rem;
+                background-color: gray;
+                box-shadow: 0 0 1rem 5px gray;
+            }
+
+            @keyframes plannet-rotating {
+                from {
+                    rotate: 0deg;
+                }
+                to {
+                    rotate: 360deg;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="plannet sun">
+            <div class="container" style="right: -550px">
+                <div class="plannet earth">
+                    <div class="container" style="right: -250px">
+                        <div class="plannet moon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

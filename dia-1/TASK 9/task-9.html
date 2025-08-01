@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Corredor animacion</title>
+        <style>
+            .container {
+                height: 100dvh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .runner {
+                /* 560px, 123px */
+                background-image: url("./sprite.png");
+                width: calc(560px / 4);
+                height: calc(123px / 1);
+                animation: runner-running 1s infinite steps(4);
+                scale: 3;
+            }
+
+            @keyframes runner-running {
+                from {
+                    background-position: 0% 0%;
+                }
+                to {
+                    background-position: -560px 0%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="runner"></div>
+        </div>
+    </body>
+</html>
