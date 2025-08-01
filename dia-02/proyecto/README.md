@@ -99,8 +99,8 @@ _Ranking de selecciones con estadísticas detalladas_
 proyecto/
 ├── app/
 │   ├── Http/
-│   │   └── Controllers/          # Controladores de la API
-│   ├── Models/                   # Modelos Eloquent
+│   │   └── Controllers/         # Controladores de la API
+│   ├── Models/                  # Modelos Eloquent
 │   │   ├── Play.php             # Modelo de Partidos (plays)
 │   │   ├── PlayTeam.php         # Modelo de Equipos en Partidos (play_teams)
 │   │   └── Team.php             # Modelo de Selecciones (teams)
