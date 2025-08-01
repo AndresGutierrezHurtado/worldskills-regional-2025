@@ -26,26 +26,26 @@
                 width: 1rem;
                 aspect-ratio: 1;
                 border-radius: 50%;
-                background-color: white;
-                box-shadow: 0 0 1rem 5px white;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0 0 1rem 2px rgb(255, 255, 255, 0.9);
             }
 
             .sun {
-                width: 5rem;
-                background-color: yellow;
-                box-shadow: 0 0 1rem 5px yellow;
+                width: 8rem;
+                background-color: rgb(255, 255, 0);
+                box-shadow: 0 0 1rem 2px rgb(255, 255, 0, 0.9);
                 animation: plannet-rotating 36.5s infinite linear;
             }
             .earth {
-                width: 3rem;
-                background-color: blue;
-                box-shadow: 0 0 1rem 5px blue;
+                width: 2.5rem;
+                background-color: rgb(0, 0, 255);
+                box-shadow: 0 0 1rem 2px rgb(0, 0, 255, 0.9);
                 animation: plannet-rotating 2.7s infinite linear;
             }
             .moon {
-                width: 1.5rem;
-                background-color: gray;
-                box-shadow: 0 0 1rem 5px gray;
+                width: 1rem;
+                background-color: rgb(209, 209, 209);
+                box-shadow: 0 0 1rem 2px rgb(209, 209, 209, 0.9);
             }
 
             @keyframes plannet-rotating {
@@ -60,9 +60,9 @@
     </head>
     <body>
         <div class="plannet sun">
-            <div class="container" style="right: -550px">
+            <div class="container" style="right: -700px">
                 <div class="plannet earth">
-                    <div class="container" style="right: -250px">
+                    <div class="container" style="right: -150px">
                         <div class="plannet moon"></div>
                     </div>
                 </div>
