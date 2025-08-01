@@ -1,4 +1,4 @@
-# 🏆 WorldSkills Bogotá 2025 – Desarrollo Web
+# 🏆 WorldSkills Bogotá 2025 – 🏅 Oro Regional en Tecnologías Web
 
 Este repositorio reúne todo el trabajo que desarrollé durante mi participación en la **competencia WorldSkills Bogotá 2025**, en la habilidad de **Desarrollo Web**, donde obtuve el **primer lugar a nivel regional**, representando con orgullo al **CEET (Centro de Electricidad, Electrónica y Telecomunicaciones)** del **SENA**.
 
@@ -12,11 +12,11 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 ## 📚 Tabla de Contenidos
 
--   [🏅 Evidencia de Logros](#evidencia-de-logros)
--   [🏆 ¿Qué son las WorldSkills?](#qué-son-las-worldskills)
--   [📁 Estructura del Repositorio](#estructura-del-repositorio)
--   [🎯 Módulos de Competencia](#módulos-de-competencia)
--   [📬 Contacto](#contacto)
+-   [🏅 Evidencia de Logros](#-evidencia-de-logros)
+-   [🏆 ¿Qué son las WorldSkills?](#-qué-son-las-worldskills)
+-   [📁 Estructura del Repositorio](#-estructura-del-repositorio)
+-   [🎯 Módulos de Competencia](#-módulos-de-competencia)
+-   [📬 Contacto](#-contacto)
 
 ---
 
@@ -26,15 +26,15 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 <img src="extra/medalla.jpg" alt="Medalla de Oro" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
-*Medalla de primer puesto obtenida en la competencia regional*
+_Medalla de primer puesto obtenida en la competencia regional_
 
 <img src="extra/prueba.jpg" alt="Momento de la Prueba" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
-*Durante la ejecución de las pruebas técnicas*
+_Durante la ejecución de las pruebas técnicas_
 
 <img src="extra/premiacion.jpg" alt="Ceremonia de Premiación" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
-*Ceremonia de premiación y reconocimiento*
+_Ceremonia de premiación y reconocimiento_
 
 </div>
 
@@ -50,10 +50,10 @@ Participar en WorldSkills implica más que resolver ejercicios: es enfrentarse a
 
 ### ¿Por qué es importante?
 
-- Eleva los estándares de calidad en la **educación técnica y tecnológica**.
-- Conecta el **talento joven** con las necesidades actuales de la industria.
-- Establece **referentes globales** de desempeño profesional.
-- Impulsa la innovación, la disciplina y el crecimiento personal y profesional.
+-   Eleva los estándares de calidad en la **educación técnica y tecnológica**.
+-   Conecta el **talento joven** con las necesidades actuales de la industria.
+-   Establece **referentes globales** de desempeño profesional.
+-   Impulsa la innovación, la disciplina y el crecimiento personal y profesional.
 
 ---
 
