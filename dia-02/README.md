@@ -53,30 +53,25 @@ dia-02/
 ├── PROYECTO PRUEBA_MODULO_B_HABILIDAD_17.pdf   # Documento oficial con requerimientos
 ├── proyecto/                                   # Aplicación Laravel completa
 │   ├── app/
-│   │   ├── Http/Controllers/                  # Controladores de la API
-│   │   ├── Models/                           # Modelos Eloquent
-│   │   └── Providers/                        # Proveedores de servicios
+│   │   ├── Http/Controllers/                   # Controladores de la API
+│   │   └── Models/                             # Modelos Eloquent
 │   ├── database/
-│   │   ├── migrations/                       # Migraciones de base de datos
-│   │   ├── seeders/                         # Datos de prueba
-│   │   └── factories/                       # Factories para datos
+│   │   ├── migrations/                         # Migraciones de base de datos
+│   │   ├── seeders/                            # Datos de prueba
+│   │   └── factories/                          # Factories para datos
 │   ├── resources/
-│   │   ├── js/                              # Componentes React
-│   │   │   ├── components/                  # Componentes reutilizables
-│   │   │   ├── pages/                       # Páginas de la aplicación
-│   │   │   ├── layouts/                     # Layouts principales
-│   │   │   └── hooks/                       # Custom hooks
-│   │   └── views/                           # Vistas Blade (si aplica)
+│   │   ├── js/                                 # Web React
+│   │   └── views/                              # Punto de entrada para react
 │   ├── routes/
-│   │   ├── api.php                          # Rutas de la API
-│   │   └── web.php                          # Rutas web
+│   │   ├── api.php                             # Rutas de la API
+│   │   └── web.php                             # Rutas web
 │   └── public/
-│       └── recursos/                        # Recursos estáticos
-│           ├── banderas/                    # Imágenes de banderas
-│           ├── iconos/                      # Iconos SVG/PNG
-│           └── estilos.json                 # Configuración de estilos
-└── recursos/                                 # Recursos adicionales
-    ├── banderas/                            # Imágenes de banderas
-    ├── iconos/                              # Iconos del sistema
-    └── estilos.json                         # Configuración de colores
+│       └── recursos/                           # Recursos dados para el desarrollo de la prueba
+│           ├── banderas/                       # Imágenes de banderas
+│           ├── iconos/                         # Iconos SVG/PNG
+│           └── estilos.json                    # Configuración de estilos
+└── recursos/                                   # Recursos adicionales
+    ├── banderas/                               # Imágenes de banderas
+    ├── iconos/                                 # Iconos del sistema
+    └── estilos.json                            # Configuración de colores
 ```

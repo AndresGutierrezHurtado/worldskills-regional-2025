@@ -100,11 +100,10 @@ proyecto/
 ├── app/
 │   ├── Http/
 │   │   └── Controllers/         # Controladores de la API
-│   ├── Models/                  # Modelos Eloquent
-│   │   ├── Play.php             # Modelo de Partidos (plays)
-│   │   ├── PlayTeam.php         # Modelo de Equipos en Partidos (play_teams)
-│   │   └── Team.php             # Modelo de Selecciones (teams)
-│   └── Providers/               # Proveedores de servicios
+│   └── Models/                  # Modelos Eloquent
+│       ├── Play.php             # Modelo de Partidos (plays)
+│       ├── PlayTeam.php         # Modelo de Equipos en Partidos (play_teams)
+│       └── Team.php             # Modelo de Selecciones (teams)
 ├── database/
 │   ├── migrations/              # Migraciones de base de datos
 │   ├── seeders/                 # Datos de prueba
@@ -115,12 +114,12 @@ proyecto/
 │   │   ├── pages/               # Páginas de la aplicación
 │   │   ├── layouts/             # Layouts principales
 │   │   └── hooks/               # Custom hooks
-│   └── views/                   # Vistas Blade (si aplica)
+│   └── views/                   # Punto de entrada React
 ├── routes/
 │   ├── api.php                  # Rutas de la API
 │   └── web.php                  # Rutas web
 ├── public/
-│   └── recursos/                # Recursos estáticos
+│   └── recursos/                # Recursos dados para el desarrollo de la prueba
 │       ├── banderas/            # Imágenes de banderas
 │       ├── iconos/              # Iconos SVG/PNG
 │       └── estilos.json         # Configuración de estilos
@@ -192,8 +191,8 @@ POST   /api/plays              # Crear nuevo partido
 1. **Clonar el repositorio**
 
     ```bash
-    git clone https://github.com/AndresGutierrezHurtado/worldskills-regional-2026.git
-    cd worldskills-regional-2026/dia-02/proyecto
+    git clone https://github.com/AndresGutierrezHurtado/worldskills-regional-2025.git
+    cd worldskills-regional-2025/dia-02/proyecto
     ```
 
 2. **Instalar dependencias PHP**

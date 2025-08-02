@@ -1,6 +1,6 @@
 # 🏆 WorldSkills Bogotá 2025 – 🏅 Oro Regional en Tecnologías Web
 
-Este repositorio reúne todo el trabajo que desarrollé durante mi participación en la **competencia WorldSkills Bogotá 2025**, en la habilidad de **Desarrollo Web**, donde obtuve el **primer lugar a nivel regional**, representando con orgullo al **CEET (Centro de Electricidad, Electrónica y Telecomunicaciones)** del **SENA**.
+Este repositorio reúne todo el trabajo que desarrollé durante mi participación en la **competencia WorldSkills Bogotá 2025**, en la habilidad **17 - Tecnologías Web**, donde obtuve el **primer lugar a nivel regional**, representando con orgullo al **CEET (Centro de Electricidad, Electrónica y Telecomunicaciones)** del **SENA**.
 
 Esta categoría fue la que reunió **el mayor número de participantes en toda la competencia regional**, lo que la hizo aún más desafiante y competitiva.
 
@@ -75,7 +75,7 @@ worldskills-regional-2026/
 │
 ├── dia-02/                                         # Día 2: Módulo B - Desarrollo Backend
 │   ├── PROYECTO PRUEBA_MODULO_B_HABILIDAD_17.pdf   # Documento oficial con los requerimientos del módulo B
-│   ├── proyecto/                                   # Proyecto completo backend con Laravel (API, autenticación, vistas)
+│   ├── proyecto/                                   # Proyecto completo backend con Laravel (API, vistas)
 │   └── recursos/                                   # Archivos de soporte utilizados durante el desarrollo
 │       ├── banderas/                               # Imágenes de banderas para funcionalidades relacionadas con países
 │       ├── iconos/                                 # Iconos SVG o PNG utilizados en la interfaz
