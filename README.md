@@ -1,5 +1,7 @@
 # 🏆 WorldSkills Bogotá 2025 – 🏅 Oro Regional en Tecnologías Web
 
+[🥈 Ver Siguiente competencia (Preselección)](https://github.com/AndresGutierrezHurtado/worldskills-preseleccion-2025)
+
 Este repositorio reúne todo el trabajo que desarrollé durante mi participación en la **competencia WorldSkills Bogotá 2025**, en la habilidad **17 - Tecnologías Web**, donde obtuve el **primer lugar a nivel regional**, representando con orgullo al **CEET (Centro de Electricidad, Electrónica y Telecomunicaciones)** del **SENA**.
 
 Esta categoría fue la que reunió **el mayor número de participantes en toda la competencia regional**, lo que la hizo aún más desafiante y competitiva.

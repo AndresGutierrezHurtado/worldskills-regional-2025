@@ -1,5 +1,9 @@
 # 🎯 Módulo B – Desarrollo Backend
 
+[🔙 Volver al inicio](../README.md)
+
+[📄 Ver prueba](./PROYECTO%20PRUEBA_MODULO_B_HABILIDAD_17.pdf)
+
 El segundo día de competencia estuvo dedicado al **Módulo B – Desarrollo Backend**, una prueba centrada en evaluar la capacidad de los participantes para construir aplicaciones web completas con enfoque full-stack. El reto principal consistió en desarrollar una plataforma web relacionada con la **Copa América Femenina**, en la cual se debía gestionar la información de los países, sus resultados, posiciones, así como permitir el registro tanto de países como de partidos. Esta aplicación debía estar **adaptada para dispositivos móviles** y cumplir con criterios de funcionalidad, rendimiento, usabilidad y presentación técnica.
 
 Durante las **4 horas establecidas** para completar este módulo, logré convertirme en el **único competidor que completó la totalidad del desarrollo solicitado**. Este resultado no solo implicó la construcción de toda la lógica backend con Laravel y su respectiva API RESTful, sino también la integración de una interfaz desarrollada con React, completamente funcional, moderna y responsiva. Además del desarrollo técnico, la evaluación incluía un **pitch de presentación del proyecto**, en el cual también obtuve una calificación destacada.
