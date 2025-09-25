@@ -8,7 +8,14 @@ Esta categoría fue la que reunió **el mayor número de participantes en toda l
 
 Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** y los **proyectos desarrollados**, acompañados de un enfoque técnico riguroso, disciplina constante y soluciones optimizadas que me permitieron destacar en el proceso.
 
-![Ceremonia de Premiación](extra/premiacion.jpg)
+<div align="center">
+
+![WorldSkills Bogotá 2025](https://img.shields.io/badge/WorldSkills-Bogotá_2025-005EB8?style=for-the-badge)
+![Habilidad 17 – Tecnologías Web](https://img.shields.io/badge/Habilidad-17_Tecnologías_Web-orange?style=for-the-badge)
+
+</div>
+
+![Ceremonia de Premiación](docs/images/premiacion.jpg)
 
 ---
 
@@ -26,15 +33,15 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 <div align="center">
 
-<img src="extra/medalla.jpg" alt="Medalla de Oro" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/medalla.jpg" alt="Medalla de Oro" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Medalla de primer puesto obtenida en la competencia regional_
 
-<img src="extra/prueba.jpg" alt="Momento de la Prueba" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/prueba.jpg" alt="Momento de la Prueba" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Durante la ejecución de las pruebas técnicas_
 
-<img src="extra/premiacion.jpg" alt="Ceremonia de Premiación" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/premiacion.jpg" alt="Ceremonia de Premiación" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Ceremonia de premiación y reconocimiento_
 
@@ -42,77 +49,41 @@ _Ceremonia de premiación y reconocimiento_
 
 ---
 
-## 🏆 ¿Qué son las WorldSkills?
-
-**WorldSkills** es una organización internacional dedicada a promover la excelencia y el reconocimiento de las habilidades técnicas y tecnológicas a través de competencias de alto nivel.
-
-A nivel regional, nacional e internacional, estas competencias simulan entornos reales de trabajo donde los participantes deben demostrar su dominio técnico, su capacidad de adaptación y su criterio profesional bajo condiciones de presión y tiempos limitados.
-
-Participar en WorldSkills implica más que resolver ejercicios: es enfrentarse a estándares internacionales, demostrar preparación, y adaptarse a las exigencias reales del sector productivo.
-
-### ¿Por qué es importante?
-
--   Eleva los estándares de calidad en la **educación técnica y tecnológica**.
--   Conecta el **talento joven** con las necesidades actuales de la industria.
--   Establece **referentes globales** de desempeño profesional.
--   Impulsa la innovación, la disciplina y el crecimiento personal y profesional.
-
----
-
 ## 📁 Estructura del Repositorio
 
 ```bash
 worldskills-regional-2026/
-├── dia-01/                                         # Día 1: Módulo A - Desarrollo Frontend
-│   ├── PROYECTO PRUEBA_MODULO_A_HABILIDAD_17.pdf   # Documento oficial con los requerimientos del módulo A
-│   ├── TASK 1/                                     # Lógica básica con JavaScript (variables, funciones, condicionales)
-│   ├── TASK 2/                                     # Manipulación del DOM y eventos en JavaScript
-│   ├── TASK 3/                                     # Estructura básica con HTML semántico
-│   ├── TASK 4/                                     # Formularios y etiquetas avanzadas en HTML
-│   ├── TASK 5/                                     # Introducción a estilos con CSS básico
-│   ├── TASK 6/                                     # Selectores avanzados, pseudoclases y flexbox
-│   ├── TASK 7/                                     # Diseño responsivo con media queries
-│   ├── TASK 8/                                     # Animaciones con CSS (keyframes, transitions)
-│   └── TASK 9/                                     # Implementación de sprites CSS y optimización de recursos
+├── docs/                           # Documentacion e información de la competencia
 │
-├── dia-02/                                         # Día 2: Módulo B - Desarrollo Backend
-│   ├── PROYECTO PRUEBA_MODULO_B_HABILIDAD_17.pdf   # Documento oficial con los requerimientos del módulo B
-│   ├── proyecto/                                   # Proyecto completo backend con Laravel (API, vistas)
-│   └── recursos/                                   # Archivos de soporte utilizados durante el desarrollo
-│       ├── banderas/                               # Imágenes de banderas para funcionalidades relacionadas con países
-│       ├── iconos/                                 # Iconos SVG o PNG utilizados en la interfaz
-│       └── estilos.json                            # Archivo de configuración para colores y temas del sistema
+├── modulo-a/                       # Módulo A - Desarrollo Frontend
+├── modulo-b/                       # Módulo B - Desarrollo Backend
 │
-└── README.md                                       # Archivo principal de documentación del repositorio
+└── README.md                       # Documentación principal del repositorio
 ```
 
 ---
 
 ## 🎯 Módulos de Competencia
 
-### Módulo A - Desarrollo Frontend (Día 1)
+Los módulos se desarrollaron a lo largo de **dos días**, con una duración de **cuatro horas por módulo**.  
+Durante cada jornada se permitió un máximo de **cinco minutos de acceso a Internet**, sin importar la cantidad de consultas realizadas, lo que exigió una **planificación precisa y dominio técnico real** de cada tecnología.
 
-Este módulo se enfoca en las habilidades fundamentales de desarrollo web frontend:
+---
 
--   **TASK 1-2**: JavaScript básico e intermedio
--   **TASK 3-4**: HTML básico e intermedio
--   **TASK 5-6**: CSS básico e intermedio
--   **TASK 7**: Diseño responsivo y maquetación
--   **TASK 8**: Animaciones CSS avanzadas
--   **TASK 9**: Sprites CSS y optimización de imágenes
+### Módulo A – Desarrollo Frontend
 
-[Ver Módulo](./dia-01/README.md)
+Este módulo se enfocó en evaluar las **habilidades esenciales del desarrollo web del lado del cliente**, abarcando desde la **lógica y manipulación del DOM con JavaScript**, la **estructuración semántica con HTML5**, y el **diseño visual con CSS3**, hasta tareas avanzadas como el **diseño responsivo**, las **animaciones fluidas** y la **optimización de recursos mediante sprites CSS**.  
 
-### Módulo B - Desarrollo Backend (Día 2)
+[Ver detalles de la prueba](./dia-01/README.md)
 
-Este módulo evalúa las competencias en desarrollo backend y full-stack:
+---
 
--   **Aplicación Laravel**: Framework PHP moderno
--   **Base de Datos**: Migraciones y modelos Eloquent
--   **API REST**: Endpoints para gestión de datos
--   **Frontend React**: Componentes interactivos
+### Módulo B – Desarrollo Backend
 
-[Ver Módulo](./dia-02/README.md)
+Este módulo evaluó las **competencias en desarrollo backend y full-stack**, centradas en la construcción de aplicaciones web completas mediante tecnologías modernas.  
+Incluyó el desarrollo de una **API REST con Laravel**, el uso de **migraciones y modelos Eloquent** para la gestión de bases de datos, y la integración de un **frontend interactivo con React**, garantizando una comunicación eficiente entre el cliente y el servidor.
+
+[Ver detalles de la prueba](./dia-02/README.md)
 
 ---
 
