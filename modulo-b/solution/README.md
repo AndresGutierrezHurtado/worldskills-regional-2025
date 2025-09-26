@@ -22,7 +22,7 @@ _Sistema web full-stack desarrollado para la competencia WorldSkills Bogotá 202
 -   **Dashboard Principal**: Vista general del sistema
 -   **Navegación Intuitiva**: Acceso rápido a todas las funcionalidades
 
-![Página Principal](../extra/index.png)
+![Página Principal](./extra/index.png)
 
 _Dashboard principal del sistema de gestión_
 
@@ -33,7 +33,7 @@ _Dashboard principal del sistema de gestión_
 -   **Información Detallada**: Estadísticas completas de cada selección
 -   **Registro de Nuevas**: Formulario para agregar nuevas selecciones
 
-![Gestión de Selecciones](../extra/teams.png)
+![Gestión de Selecciones](./extra/teams.png)
 
 _Interfaz de gestión de selecciones con filtros y búsqueda_
 
@@ -43,7 +43,7 @@ _Interfaz de gestión de selecciones con filtros y búsqueda_
 -   **Filtros Avanzados**: Búsqueda por fecha, equipos
 -   **Registro de Partidos**: Formulario para agregar nuevos encuentros
 
-![Gestión de Partidos](../extra/results.png)
+![Gestión de Partidos](./extra/results.png)
 
 _Vista de resultados y gestión de partidos_
 
@@ -53,7 +53,7 @@ _Vista de resultados y gestión de partidos_
 -   **Filtros por Período**: Rankings por diferentes temporadas
 -   **Métricas Múltiples**: Puntos, goles, partidos jugados
 
-![Top de Posiciones](../extra/ranking.png)
+![Top de Posiciones](./extra/ranking.png)
 
 _Ranking de selecciones con estadísticas detalladas_
 
