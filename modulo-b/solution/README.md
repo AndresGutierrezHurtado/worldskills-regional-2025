@@ -96,7 +96,7 @@ _Ranking de selecciones con estadísticas detalladas_
 ## 📁 Estructura del Proyecto
 
 ```
-proyecto/
+solution/
 ├── app/
 │   ├── Http/
 │   │   └── Controllers/         # Controladores de la API

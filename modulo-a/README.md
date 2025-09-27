@@ -1,10 +1,10 @@
 # 🎯 Módulo A - Desarrollo Frontend
 
-[🔙 Volver al inicio](../README.md)
+[🔙 Volver al inicio](../README.md#-módulos-de-competencia)
 
 [📄 Ver prueba](./PROYECTO%20PRUEBA_MODULO_A_HABILIDAD_17.pdf)
 
-Este módulo fue desarrollado durante el **primer día de la competencia WorldSkills Bogotá 2025**, dentro de la habilidad **17 – Tecnologías Web**.  
+Este módulo fue desarrollado durante el **primer día de la competencia WorldSkills Bogotá 2025**, dentro de la habilidad **17 – Tecnologías Web**.
 
 Su objetivo fue evaluar las **competencias base del desarrollo frontend**, abarcando desde la **lógica de programación en JavaScript** hasta la **maquetación semántica con HTML5** y la **implementación visual con CSS3**, sin el uso de frameworks ni librerías externas.
 
@@ -21,7 +21,7 @@ Sin embargo, esta misma velocidad trajo un **inconveniente en los dos primeros e
 
 Aun así, obtuve una **evaluación destacada de 36 puntos sobre 40 posibles**, manteniendo un desempeño sólido, limpio y estructurado que reforzó mi posición desde el inicio de la competencia.
 
--- 
+---
 
 ## Ejecución del proyecto
 
