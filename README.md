@@ -69,6 +69,8 @@ Los módulos se desarrollaron a lo largo de **dos días**, con una duración de 
 
 Durante cada jornada, se permitió un máximo de **cinco minutos de acceso a Internet**, sin importar la cantidad de consultas realizadas.
 
+En total, obtuve una **calificación aproximada de 92 puntos sobre 100**, reflejando un **alto desempeño técnico y comunicativo** durante toda la evaluación.
+
 ### Módulo A – Desarrollo Frontend (40%)
 
 Este módulo evaluó las **habilidades fundamentales del desarrollo web del lado del cliente**, abarcando desde la **manipulación del DOM con JavaScript**, la **estructura semántica mediante HTML5** y el **diseño visual con CSS3**, hasta conceptos más avanzados como el **diseño responsivo**, las **animaciones fluidas** y la **optimización de recursos mediante sprites en CSS**.  
