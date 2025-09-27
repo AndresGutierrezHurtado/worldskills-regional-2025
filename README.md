@@ -66,24 +66,26 @@ worldskills-regional-2026/
 ## 🎯 Módulos de Competencia
 
 Los módulos se desarrollaron a lo largo de **dos días**, con una duración de **cuatro horas por módulo**.  
-Durante cada jornada se permitió un máximo de **cinco minutos de acceso a Internet**, sin importar la cantidad de consultas realizadas, lo que exigió una **planificación precisa y dominio técnico real** de cada tecnología.
 
----
+Durante cada jornada, se permitió un máximo de **cinco minutos de acceso a Internet**, sin importar la cantidad de consultas realizadas.
 
-### Módulo A – Desarrollo Frontend
+### Módulo A – Desarrollo Frontend (40%)
 
-Este módulo se enfocó en evaluar las **habilidades esenciales del desarrollo web del lado del cliente**, abarcando desde la **lógica y manipulación del DOM con JavaScript**, la **estructuración semántica con HTML5**, y el **diseño visual con CSS3**, hasta tareas avanzadas como el **diseño responsivo**, las **animaciones fluidas** y la **optimización de recursos mediante sprites CSS**.  
+Este módulo evaluó las **habilidades fundamentales del desarrollo web del lado del cliente**, abarcando desde la **manipulación del DOM con JavaScript**, la **estructura semántica mediante HTML5** y el **diseño visual con CSS3**, hasta conceptos más avanzados como el **diseño responsivo**, las **animaciones fluidas** y la **optimización de recursos mediante sprites en CSS**.  
 
-[Ver detalles de la prueba](./dia-01/README.md)
+[Ver detalles de la prueba](./modulo-a/README.md)
 
----
+### Módulo B – Desarrollo FullStack (50%)
 
-### Módulo B – Desarrollo Backend
+Este módulo midió las **competencias en desarrollo backend y full stack**, con énfasis en la construcción de **aplicaciones web completas** utilizando tecnologías modernas y buenas prácticas de arquitectura de software.  
 
-Este módulo evaluó las **competencias en desarrollo backend y full-stack**, centradas en la construcción de aplicaciones web completas mediante tecnologías modernas.  
-Incluyó el desarrollo de una **API REST con Laravel**, el uso de **migraciones y modelos Eloquent** para la gestión de bases de datos, y la integración de un **frontend interactivo con React**, garantizando una comunicación eficiente entre el cliente y el servidor.
+[Ver detalles de la prueba](./modulo-b/README.md)
 
-[Ver detalles de la prueba](./dia-02/README.md)
+### Pitch (10%)
+
+Se llevó a cabo una **presentación final (pitch)** basada en el proyecto del **Módulo B**, en la cual se expuso la **problemática identificada**, la **solución implementada**, el **factor diferenciador** y los **pasos a futuro**.  
+
+Aunque inicialmente me sentí algo **tenso corporalmente**, logré ofrecer una **explicación clara**, lo que me permitió **obtener la puntuación máxima (10 puntos)**.
 
 ---
 
