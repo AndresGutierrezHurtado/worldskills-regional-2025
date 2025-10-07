@@ -21,7 +21,7 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 ## 📚 Tabla de Contenidos
 
--   [🏅 Evidencia de Logros](#-evidencia-de-logros)
+-   [🏅 Highlights de la Competencia](#-highlights-de-la-competencia)
 -   [🏆 ¿Qué son las WorldSkills?](#-qué-son-las-worldskills)
 -   [📁 Estructura del Repositorio](#-estructura-del-repositorio)
 -   [🎯 Módulos de Competencia](#-módulos-de-competencia)
@@ -29,7 +29,7 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 ---
 
-## 🏅 Evidencia de Logros
+## 🏅 Highlights de la Competencia
 
 <div align="center">
 
