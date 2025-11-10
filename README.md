@@ -97,6 +97,6 @@ Para preguntas, soporte o colaboración, por favor contacta:
 
 -   Andrés Gutiérrez Hurtado
 -   Correo: [andres52885241@gmail.com](mailto:andres52885241@gmail.com)
--   LinkedIn: [Andrés Gutiérrez](https://www.linkedin.com/in/andr%C3%A9s-guti%C3%A9rrez-hurtado-25946728b/)
+-   LinkedIn: [Andrés Gutiérrez](https://www.linkedin.com/in/andresgh-dev)
 -   GitHub: [@AndresGutierrezHurtado](https://github.com/AndresGutierrezHurtado)
 -   Portafolio: [Link portafolio](https://andres-portfolio-b4dv.onrender.com)
