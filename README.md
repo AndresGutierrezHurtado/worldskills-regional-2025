@@ -33,15 +33,15 @@ Aquí encontrarás todas las **tareas entregadas**, los **recursos utilizados** 
 
 <div align="center">
 
-<img src="docs/images/medalla.jpg" alt="Medalla de Oro" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/medalla.jpg" alt="Medalla de primer lugar" width="400" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Medalla de primer puesto obtenida en la competencia regional_
 
-<img src="docs/images/prueba.jpg" alt="Momento de la Prueba" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/prueba.jpg" alt="Momento de la Prueba" width="400" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Durante la ejecución de las pruebas técnicas_
 
-<img src="docs/images/premiacion.jpg" alt="Ceremonia de Premiación" width="400" height="300" style="object-fit: cover; border-radius: 8px; margin: 10px;">
+<img src="docs/images/premiacion.jpg" alt="Ceremonia de Premiación" width="400" style="object-fit: cover; border-radius: 8px; margin: 10px;">
 
 _Ceremonia de premiación y reconocimiento_
 
